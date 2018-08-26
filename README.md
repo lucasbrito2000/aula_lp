@@ -1,5 +1,5 @@
-dicionario={'nome':"fggg",'telefone':"gfgfdsg",'email':"fgkfdgjkfg" }
-
+dicionario={'nome':"lucas",'telefone':"112212",'email':"lucas@" }
+exercicio1
 class contato:
     def __init__(self,_nome,_telefone,_email):
         self.nome=_nome
@@ -19,9 +19,20 @@ print(chama.imprime())
 
 
 #2
-def dicionario2(dicionario1):
+def def conta_elementos(dicionario):
     return len(dicionario)
 print(dicionario2(dicionario))
 #3
-def dic (dici):
-    
+def dicionario (dicionario,chave):
+    if chave in dicionario 
+        return true
+    return false
+    print(verifica_presenca(dicionario,'Marcos')) 
+#4
+def insere (dicionario,chave,objeto):
+    if chave not in dicionario and objeto not in dicionario:
+        dicionario[chave]=objeto
+        print(dicionario)
+        return True
+    return False 
+print(insere(dicionario,'Marcos','100'))
